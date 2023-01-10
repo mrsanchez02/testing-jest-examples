@@ -1,0 +1,26 @@
+{
+  "name": "testing-module-1",
+  "version": "1.0.0",
+  "description": "Este es un proyecto para ver como funciona jest.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "testWatch": "jest --watchAll",
+    "testCoverage": "jest --coverage"
+  },
+  "keywords": [
+    "jest",
+    "node",
+    "edteam"
+  ],
+  "author": "Jose Sanchez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.2.5",
+    "jest": "^29.3.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "rootDir":"./tests/"
+  }
+}
